@@ -1,5 +1,5 @@
 ﻿# Project-24POINTS-CS program
-## I want to do a big online game system. There are a lot of different competitive game. People could win the money by winning the different games (kind of legal casino). 
+## I want to do a big online game system. There are a lot of different competitive game. People could win the money by winning the different games (kind of legal casino). :sunglasses:
 STEPS
 1. People could choose which games they are good at.
 2. Choose how much money they want to wager
@@ -28,7 +28,7 @@ The program will give you 4 numbers “1,2,3,4”, and assign them as a.b.c.d
 4. If the reader types a+b+c+d, since the result is 10, the program will type “No” and rerun the function to ask you to type again.
  
 ## Reflections and revisions
-It doesn't go well. There are two main problems in my program. 
+It doesn't go well. There are two main problems in my program. ：scream:
 1. The Python cannot do the calculations in the input, so I need to change the imput to the string type, and let the Python to recognize every number in the input to calculate the answer.
 2. If somebody just type 24 in the imput, the program will show that he passed the problem, even though he didn't use the four numbers that were given by the program randomly.
 
