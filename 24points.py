@@ -16,7 +16,7 @@ import random
 def twenty_four_points():
     a=random.randint(1,10)
     b=random.randint(1,10)
-    #c=random.randint(1,13)
+    c=random.randint(1,13)
     #d=random.randint(1,13)
     num1=int(a)
     num2=int(b)
@@ -38,10 +38,19 @@ def twenty_four_points():
     elif ope1=="/":
         result1=n1*n2
         
+        
+    if ope2=="+":
+        result2=result1+n3
+    elif ope2=="-":
+        result2=result1-n3
+    elif ope2=="*":
+        result2=result1*n3
+    elif ope2=="/":
+        result2=result1*n3    
     
     
-    print("Your result is", result)
-    if result==24:
+    print("Your result is", result2)
+    if result2==24:
         print("Right,next one")
         twenty_four_points()
     else:
