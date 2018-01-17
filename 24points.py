@@ -14,22 +14,40 @@ def test_suite():
 
 import random
 def twenty_four_points():
-    a=random.randint(1,13)
-    b=random.randint(1,13)
-    c=random.randint(1,13)
-    d=random.randint(1,13)
+    a=random.randint(1,10)
+    b=random.randint(1,10)
+    #c=random.randint(1,13)
+    #d=random.randint(1,13)
     num1=int(a)
     num2=int(b)
     num3=int(c)
-    num4=int(d)
-    print(num1,num2,num3,num4)
-    a1=int(input("The first number represents num1, the second number represents num2... Use numx to calculate 24!"))
+    #num4=int(d)
+    print(num1,num2,num3) #,num4)
     
-    if a1==24:
-        return True
+    n1=int(input("What's your first number?"))
+    ope1=input("What's your operator?")
+    n2=int(input("What's your second number?"))
+    ope2=input("What's your operator?")
+    n3=int(input("What's your third number?"))
+    if ope1=="+":
+        result1=n1+n2
+    elif ope1=="-":
+        result1=n1-n2
+    elif ope1=="*":
+        result1=n1*n2
+    elif ope1=="/":
+        result1=n1*n2
+        
+    
+    
+    print("Your result is", result)
+    if result==24:
+        print("Right,next one")
+        twenty_four_points()
     else:
+        print("Not True")
         twenty_four_points()
     
     
-#twenty_four_points()
-test_suite()
+twenty_four_points()
+#test_suite()
