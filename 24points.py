@@ -16,19 +16,18 @@ import random
 def twenty_four_points():
     a=random.randint(1,10)
     b=random.randint(1,10)
-    c=random.randint(1,13)
-    #d=random.randint(1,13)
+    c=random.randint(1,10)
+    d=random.randint(1,10)
     num1=int(a)
     num2=int(b)
     num3=int(c)
-    #num4=int(d)
-    print(num1,num2,num3) #,num4)
+    num4=int(d)
+    print(num1,num2,num3,num4)
     
     n1=int(input("What's your first number?"))
     ope1=input("What's your operator?")
     n2=int(input("What's your second number?"))
-    ope2=input("What's your operator?")
-    n3=int(input("What's your third number?"))
+    
     if ope1=="+":
         result1=n1+n2
     elif ope1=="-":
@@ -38,7 +37,10 @@ def twenty_four_points():
     elif ope1=="/":
         result1=n1*n2
         
-        
+    print("Then you will get", result1)
+    ope2=input("What's your next operator?")
+    n3=int(input("What's your third number?"))
+    
     if ope2=="+":
         result2=result1+n3
     elif ope2=="-":
@@ -48,9 +50,20 @@ def twenty_four_points():
     elif ope2=="/":
         result2=result1*n3    
     
+    print("Then you will get", result2)
+    ope3=input("What's your next operator?")
+    n4=int(input("What's your fourth number?"))
+    if ope3=="+":
+        result3=result2+n4
+    elif ope3=="-":
+        result3=result2-n4
+    elif ope3=="*":
+        result3=result2*n4
+    elif ope3=="/":
+        result3=result2*n4    
     
-    print("Your result is", result2)
-    if result2==24:
+    print("Your result is", result3)
+    if result3==24:
         print("Right,next one")
         twenty_four_points()
     else:
