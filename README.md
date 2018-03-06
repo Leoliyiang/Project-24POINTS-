@@ -32,5 +32,16 @@ It doesn't go well. There are two main problems in my program. :scream:
 1. The Python cannot do the calculations in the input, so I need to change the imput to the string type, and let the Python to recognize every number in the input to calculate the answer.
 2. If somebody just type 24 in the imput, the program will show that he passed the problem, even though he didn't use the four numbers that were given by the program randomly.
 
-## Next Steps
+## Second Round
 I need to fix this problem, and make some more math games. My next game will probably be a "picking matchsticks" game for two people. There will be three clusters of matchsticks with random matchsticks in that. The first people can pick any matchsticks they want in just one cluster. And the second people will do the same thing. The one who pick the last matchstick will win this game.
+In addition, I would use the pygame to make a opening menu which lists every games I had.
+
+## Test Plan For 2rd Round
+1. The program will ask “Are you ready”
+2. The user types “test”
+The Program will show 3 clusters with matchsticks, and assign them as a.b.c
+3. If the reader types "1", the program would choose the first cluster.
+4. If the reader types "4", the program would show "Error".
+5. Then, the reader could type number to move the matchsticks, like "5". The program would move 5 sticks from the a cluster.
+6. If all the matchsticks were removed, the program would show "WIN".
+3. If the reader types
