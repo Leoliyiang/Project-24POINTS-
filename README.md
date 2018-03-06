@@ -44,4 +44,4 @@ The Program will show 3 clusters with matchsticks, and assign them as a.b.c
 4. If the reader types "4", the program would show "Error".
 5. Then, the reader could type number to move the matchsticks, like "5". The program would move 5 sticks from the a cluster.
 6. If all the matchsticks were removed, the program would show "WIN".
-3. If the reader types
+
