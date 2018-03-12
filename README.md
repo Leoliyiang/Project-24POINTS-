@@ -45,3 +45,14 @@ The Program will show 3 clusters with matchsticks, and assign them as a.b.c
 5. Then, the reader could type number to move the matchsticks, like "5". The program would move 5 sticks from the a cluster.
 6. If all the matchsticks were removed, the program would show "WIN".
 
+## Todos
+1. Put the matchsticks in the screen
+2. Cliking the matchsticks
+3. Remove matchsticks
+4. Winning List
+
+## In progress
+First step
+
+## Done
+1. Opening and quitting screen
