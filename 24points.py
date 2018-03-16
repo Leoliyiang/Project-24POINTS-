@@ -1,4 +1,5 @@
 import sys
+results=[]
 
 def test(did_pass):
     """  Print the result of a test.  """
@@ -14,7 +15,7 @@ def test_suite():
 
 import random
 def twenty_four_points():
-    
+
     a=random.randint(1,10)
     b=random.randint(1,10)
     c=random.randint(1,10)
@@ -35,7 +36,7 @@ def twenty_four_points():
     ope3=input("What's your next operator?")
     n4=int(input("What's your fourth number?"))
     if ope3=="+":
-        result3=result2+n4
+        results[2]=results[1]+n4
     elif ope3=="-":
         result3=result2-n4
     elif ope3=="*":
@@ -84,6 +85,7 @@ def second_guess(list2,result1):
     ope2=input("What's your next operator?")
     n3=int(input("What's your third number?"))
     isgood=False
+    result2=0
     for i in list2:
         if i == n3:
             isgood=True
